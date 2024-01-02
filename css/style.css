@@ -46,6 +46,7 @@ address{
 .header{
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .header-logo{
@@ -58,13 +59,16 @@ address{
         text-transform: uppercase;
         display: flex;
         align-items: center;
+        margin-right: 76px
     }
     .header-list {
         display: flex;
         margin-left: 40px;
+        gap: 40px;
     }
     .header-menu{
         margin-left: 40px;
+        gap: 40px;
     }
     .header-logo-blue{
         color: #2E2F42;
@@ -81,6 +85,7 @@ address{
 
     .header-nav{
     display: flex;
+    align-items: center;
     }
     .header-container{
         display: flex;
@@ -146,8 +151,9 @@ address{
             display: flex;
             justify-content: center;
         }
-        .hero-btn {
+        .hero-button {
         border-radius: 4px;
+        border: none;
         min-width: 169px;
         padding: 16px 32px;
         cursor: pointer;
@@ -158,9 +164,11 @@ address{
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.04em;
+        display: block;
+        height: 56px;
         }
-        .hero-btn:hover, 
-        .hero-btn:focus{
+        .hero-button:hover, 
+        .hero-button:focus{
             background-color: #404BBF;
             color: #404BBF;
             cursor: pointer;
@@ -170,6 +178,7 @@ address{
         background: #FFF;
         padding-top: 70px;
         padding-bottom: 70px;
+        padding: 120px 0;
     }
     .feature-list {
         background-color: #FFFFFF;
@@ -180,7 +189,7 @@ address{
     }
     .features-item {
         background-color: #FFFFFF;
-        width: calc((100%-72px*2)/3);
+        width: calc((100% - 72px) / 4);
     }
     .features-subtitle {
         color: var(--NAVY-BLUE, #2E2F42);
@@ -188,7 +197,7 @@ address{
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        margin-bottom: 4px;
+        margin-bottom: 8px;
     }
     .features-item-text {
         color: var(--SLATE, #434455);
@@ -208,6 +217,7 @@ address{
         letter-spacing: 0.02em;
         text-transform: capitalize;
         height: 344px;
+        padding: 120px 0;
     }
     .our-team-title {
         color: var(--NAVY-BLUE, #2E2F42);
@@ -217,20 +227,23 @@ address{
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
+        margin-bottom: 72px;
     }
     .our-team {
         background: var(--CLOUD, #F4F4FD);
     }
     .our-team-item {
         background-color: #FFFFFF;
+        border-radius: 0px 0px 4px 4px;
     }
     .our-team-list{
         background-color: #FFFFFF;
         display: flex;
-        gap: 32px;
+        gap: 24px;
     }
     .our-team-img {
         background: url(<path-to-image>), lightgray -97.034px -0.927px / 181.897% 251.37% no-repeat;
+        display: blocks;
     }
     .our-team-subtitle {
         color: var(--NAVY-BLUE, #2E2F42);
@@ -239,6 +252,7 @@ address{
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        margin-bottom: 8px;
     }
     .our-team-text {
         color: var(--SLATE, #434455);
@@ -248,13 +262,27 @@ address{
         line-height: 1.5;
         letter-spacing: 0.02em;
     }
+    .Mark-Guerrero-Product-Designer{
+        padding: 32px 0;
+    }
+    .Tom-Ford-Frontend-Developer{
+        padding: 32px 0;
+    }
+    .Camila-Garcia{
+        padding: 32px 0;
+    }
+    .Daniel-Wilson{
+        padding: 32px 0;
+    }
+
     /*-----our-portfolio---*/
     
     
     .our-portf {
         background-color: #FFFFFF;
+        padding: 120px 0 120px 0;
     }
-    .our-potrf-title {
+    .our-portf-title{
         color: var(--NAVY-BLUE, #2E2F42);
         text-align: center;
         font-size: 36px;
@@ -262,12 +290,14 @@ address{
         line-height: 1.11; /* 111.111% */
         letter-spacing: 0.02em;
         text-transform: capitalize;
+        margin-bottom: 72px;
         }
     .our-portf-list {
         background-color: #FFFFFF;
         display: flex;
         flex-wrap: wrap;
         gap: 24px;
+        row-gap: 48px;
     }
     .our-potrf-item {
         color: var(--NAVY-BLUE, #2E2F42);
@@ -279,6 +309,7 @@ address{
         }
     .our-portfolio-img {
         background: url(<path-to-image>), lightgray -25.026px 0px / 125% 100% no-repeat;
+        display: block
     }
     .our-portfolio-subtitle {
         color: var(--NAVY-BLUE, #2E2F42);
@@ -286,6 +317,7 @@ address{
         font-weight: 500;
         line-height: 1.2; /* 120% */
         letter-spacing: 0.02em;
+        margin-bottom: 8px;
     }
     .our-portfolio-text {
         color: var(--SLATE, #434455);
@@ -294,9 +326,41 @@ address{
         line-height: 1.5; /* 150% */
         letter-spacing: 0.02em;
     }
+    .Banking-App{
+        padding: 32px 16px;
+        border: 1px solid #e7e9fc;
+        border-top: none;
+    }
+    .Cashless-Payment{
+        padding: 32px 16px;
+        border: 1px solid #e7e9fc;
+        border-top: none;
+    }
+    .Meditation-App{
+        padding: 32px 16px;
+        border: 1px solid #e7e9fc;
+        border-top: none;
+    }
+    .Taxi-Service{
+        padding: 32px 16px;
+        border: 1px solid #e7e9fc;
+        border-top: none;
+    }
+    .Screen-Illustrations{
+        padding: 32px 16px;
+        border: 1px solid #e7e9fc;
+        border-top: none;
+    }
+    .Online-Courses{
+        padding: 32px 16px;
+        border: 1px solid #e7e9fc;
+        border-top: none;
+    }
+    
     /*-----footer---*/
     .footer {
         background: var(--NAVY-BLUE, #2E2F42);
+        padding: 100px 0;
     }
     .footer-logo {
         color: var(--IRIS, #4D5AE5);
@@ -306,6 +370,8 @@ address{
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        display: inline-block; 
+        margin-bottom: 16px; 
     }
     .footer-text {
         color: var(--CLOUD, #F4F4FD);
