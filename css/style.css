@@ -67,7 +67,6 @@ address{
         display: flex;
         margin-left: 40px;
         gap: 40px;
-        padding: 24px 0;
     }
     .header-menu{
         margin-left: 40px;
@@ -90,6 +89,7 @@ address{
     .header-nav{
     display: flex;
     align-items: center;
+    padding: 24px 0;
     }
     .header-container{
         display: flex;
