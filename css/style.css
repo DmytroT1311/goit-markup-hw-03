@@ -69,6 +69,7 @@ address{
     .header-menu{
         margin-left: 40px;
         gap: 40px;
+        padding: 24px 0;
     }
     .header-logo-blue{
         color: #2E2F42;
@@ -79,7 +80,7 @@ address{
         letter-spacing: 0.03em;
         text-transform: uppercase;
     }
-    .headflex {
+    .headflex{
         display: flex;
     }
 
@@ -113,6 +114,7 @@ address{
     }
     .address-item{
         margin-left: 20px;
+        padding: 24px 0;
     }
     .address-link:focus {
         color: #404BBF;
@@ -121,21 +123,22 @@ address{
     .address-list{
         display: flex;
         margin-left: 100px;
+        gap: 40px;
     }
         .header-menu-link:hover,
         .header-menu-link:focus,
         .header-menu-link:active{
-    color: #404BBF;
-        }
+    color: #404BBF; 
+    }
+    .hero{
+        background-color:#2E2F42;
+        height: 600px;
+        padding: 188px 0;
+    }
         .hero-container {
             display: block;
-            padding-top: 188px;
-            padding-bottom: 188px;
         }
-        .hero {
-            background-color:#2E2F42;
-            height: 600px;
-        }
+        
         .hero-title {
         color: var(--WHITE, #FFF);
         text-align: center;
@@ -151,10 +154,10 @@ address{
             display: flex;
             justify-content: center;
         }
-        .hero-button {
+        .hero-button{
         border-radius: 4px;
         border: none;
-        min-width: 169px;
+        min-width: 169px;hidden
         padding: 16px 32px;
         cursor: pointer;
         background-color: #4D5AE5;
