@@ -33,7 +33,7 @@ address{
 
 .container {
     max-width: 1158px;
-    padding: 0 15px;
+    padding: 0 15px 0 15px;
     margin: 0 auto;
   } 
 .visually-hidden {
@@ -84,7 +84,7 @@ address{
     }
     .headflex{
         display: flex;
-        padding: 0 15px;
+        padding: 0 15px 0 15px;
     }
     .header-nav{
     display: flex;
