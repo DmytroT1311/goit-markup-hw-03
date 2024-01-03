@@ -84,7 +84,7 @@ address{
     }
     .headflex{
         display: flex;
-        padding: 24px 0 24px;
+        padding: 0 15px;
     }
     .header-nav{
     display: flex;
