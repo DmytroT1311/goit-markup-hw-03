@@ -71,7 +71,7 @@ address{
     .header-menu{
         margin-left: 40px;
         gap: 40px;
-        padding: 24px 0;
+        padding: 24px 0 24px;
     }
     .header-logo-blue{
         color: #2E2F42;
@@ -81,6 +81,7 @@ address{
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        padding: 24px 0 24px;
     }
     .headflex{
         display: flex;
@@ -89,7 +90,6 @@ address{
     .header-nav{
     display: flex;
     align-items: center;
-    padding: 24px 0;
     }
     .header-container{
         display: flex;
