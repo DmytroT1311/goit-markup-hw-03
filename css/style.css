@@ -199,8 +199,9 @@ address{
     }
     .features-item {
         background-color: #FFFFFF;
-        width: calc((100% - 72px) / 4);
+        flex-basis: calc((100% - 3 * 24px) / 4);
     }
+
     .features-subtitle {
         color: var(--NAVY-BLUE, #2E2F42);
         font-size: 20px;
@@ -208,7 +209,6 @@ address{
         line-height: 1.2;
         letter-spacing: 0.02em;
         margin-bottom: 8px;
-        width: calc((100% - 72px) / 4);
     }
     .features-item-text {
         color: var(--SLATE, #434455);
