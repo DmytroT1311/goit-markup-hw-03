@@ -45,6 +45,9 @@ address{
     overflow: hidden;
     display:none;
     position: absolute;
+    width: 1px;
+    height: 1px;
+    bottom: 0;
 }
 
 .header{
