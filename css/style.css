@@ -196,8 +196,10 @@ address{
         gap: 24px;
         padding-left: 18px;
         padding-right: 18px;
+        margin: 0;
     }
     .features-item {
+        background-color: #FFFFFF;
         flex-basis: calc((100% - 3 * 24px) / 4);
     }
 
