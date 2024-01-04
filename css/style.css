@@ -329,32 +329,7 @@ address{
         line-height: 1.5; /* 150% */
         letter-spacing: 0.02em;
     }
-    .Banking-App{
-        padding: 32px 16px;
-        border: 1px solid #e7e9fc;
-        border-top: none;
-    }
-    .Cashless-Payment{
-        padding: 32px 16px;
-        border: 1px solid #e7e9fc;
-        border-top: none;
-    }
-    .Meditation-App{
-        padding: 32px 16px;
-        border: 1px solid #e7e9fc;
-        border-top: none;
-    }
-    .Taxi-Service{
-        padding: 32px 16px;
-        border: 1px solid #e7e9fc;
-        border-top: none;
-    }
-    .Screen-Illustrations{
-        padding: 32px 16px;
-        border: 1px solid #e7e9fc;
-        border-top: none;
-    }
-    .Online-Courses{
+    .container-port{
         padding: 32px 16px;
         border: 1px solid #e7e9fc;
         border-top: none;
